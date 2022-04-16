@@ -79,7 +79,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 .section {
@@ -323,7 +323,8 @@ img {
 }
 
 .about-title,
-.team-title {
+.team-title,
+.clients-title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -375,6 +376,38 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+/* --------------------Clients----------------- */
+
+.container .clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item + .clients-item {
+  margin-left: var(--typical-gap);
+}
+.clients-item {
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-icon {
+  fill: #afb1b8;
+}
+
+.clients-icon:hover,
+.clients-icon:focus,
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* --------------------Footer----------------- */
