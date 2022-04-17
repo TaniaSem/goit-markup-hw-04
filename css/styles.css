@@ -17,6 +17,7 @@
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --logo-color: #000000;
+  --primary-icon-color: #afb1b8;
 
   --border-nav: #ececec;
   --border-cards: #eeeeee;
@@ -252,52 +253,14 @@ img {
   width: 270px;
 }
 
-.features-list-item.antenna::before {
-  display: block;
-  content: "";
+.features-thumb {
   width: 270px;
   height: 120px;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: var(--typical-gap);
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/icons.svg/antenna.svg);
-}
-
-.features-list-item.clock::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: var(--typical-gap);
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/icons.svg/clock.svg);
-}
-
-.features-list-item.diagram::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: var(--typical-gap);
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/icons.svg/diagram.svg);
-}
-
-.features-list-item.astronaut::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: var(--typical-gap);
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/icons.svg/astronaut.svg);
 }
 
 .features-list .features-list-item + .features-list-item {
@@ -407,7 +370,7 @@ img {
   height: 44px;
   border: 1px solid transparent;
   border-radius: 50%;
-  color: #afb1b8;
+  color: var(--primary-icon-color);
 }
 
 .team-social-icon {
@@ -441,8 +404,8 @@ img {
   height: 100%;
   justify-content: center;
   align-items: center;
-  color: #afb1b8;
-  border: 1px solid #afb1b8;
+  color: var(--primary-icon-color);
+  border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
 }
 
