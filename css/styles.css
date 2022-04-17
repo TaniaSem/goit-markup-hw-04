@@ -154,7 +154,6 @@ img {
 }
 
 .contacts .link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -162,6 +161,16 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.contacts-item .link {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* -----------------Герой------------------- */
@@ -507,6 +516,7 @@ img {
 
 .footer-second-part {
   margin-left: 70px;
+  margin-right: auto;
 }
 
 .footer-title {
