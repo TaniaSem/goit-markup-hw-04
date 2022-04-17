@@ -449,6 +449,10 @@ img {
   padding-bottom: 60px;
 }
 
+.footer .container {
+  display: flex;
+}
+
 .footer-logo {
   margin-bottom: 20px;
   display: block;
@@ -499,6 +503,53 @@ img {
 .footer-list-contacts:hover,
 .footer-list-contacts:focus {
   color: var(--accent-color);
+}
+
+.footer-second-part {
+  margin-left: 70px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--primary-bg-color);
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
 }
 
 /* --------------------Portfolio-------------------- */
