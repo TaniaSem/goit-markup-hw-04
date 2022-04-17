@@ -79,7 +79,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -579,6 +579,7 @@ img {
 .list-btn {
   border-radius: 4px;
   padding: 6px 22px;
+  border: 1px solid transparent;
 
   font-family: inherit;
   font-weight: 500;
